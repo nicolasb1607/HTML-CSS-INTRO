@@ -1,3 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    border-top: 20px solid blue;
+}
+
 h1,
 h2,
 h3,
@@ -18,14 +27,18 @@ h1 {
     font-size: 26px;
     text-transform: uppercase;
     font-style: italic;
+    margin-bottom: 20px;
 }
 
 h2 {
     font-size: 40px;
+    margin-bottom: 20px;
 }
 
 h3 {
     font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 h4 {
@@ -36,6 +49,7 @@ h4 {
 p {
     font-size: 22px;
     line-height: 1.5;
+    margin-bottom: 15px;
 }
 
 li {
@@ -64,22 +78,38 @@ footer p {
     list-style: none;
 }
 
-.main-header{
+.main-header {
     background-color: rgb(231, 231, 231);
+    padding: 40px;
+    margin-bottom: 60px;
+}
+.post-header {
+    margin-bottom: 20px;
+}
+
+ul, ol
+{
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.5;
 }
 
 aside {
     background-color: rgb(231, 231, 231);
     border-top: 5px solid rgb(0, 195, 255);
-    border-bottom: 5px solid rgb(0, 195, 255);;
+    border-bottom: 5px solid rgb(0, 195, 255);
+    padding-top: 40px;
 }
 
-li:first-child{
+li:first-child {
     font-weight: bold;
 }
 
-a:link{
-    color : rgb(61, 109, 153);
+
+/* L V H A */
+a:link {
+    color: rgb(61, 109, 153);
     text-decoration: none;
 }
 
@@ -93,9 +123,11 @@ a:hover {
     text-decoration: underline greenyellow;
 }
 
-a:active{
-    background-color:  blue;
+a:active {
+    background-color: blue;
     font-style: italic;
 }
 
-/* L V H A */
+.navbar {
+    text-transform: uppercase;
+}
