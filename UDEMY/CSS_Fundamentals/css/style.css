@@ -1,0 +1,101 @@
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+    font-family: sans-serif;
+    color: grey;
+}
+
+h1,
+h2,
+h3 {
+    color: rgb(61, 109, 153);
+}
+
+h1 {
+    font-size: 26px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 30px;
+    text-align: center;
+}
+
+p {
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+li {
+    font-size: 20px;
+}
+
+footer p {
+    font-size: 16px;
+}
+
+#author {
+    font-style: italic;
+    font-size: 18px;
+}
+
+#copyright {
+    font-size: 16px;
+}
+
+.related-author {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.related {
+    list-style: none;
+}
+
+.main-header{
+    background-color: rgb(231, 231, 231);
+}
+
+aside {
+    background-color: rgb(231, 231, 231);
+    border-top: 5px solid rgb(0, 195, 255);
+    border-bottom: 5px solid rgb(0, 195, 255);;
+}
+
+li:first-child{
+    font-weight: bold;
+}
+
+a:link{
+    color : rgb(61, 109, 153);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(61, 109, 153);
+}
+
+a:hover {
+    color: greenyellow;
+    font-weight: bold;
+    text-decoration: underline greenyellow;
+}
+
+a:active{
+    background-color:  blue;
+    font-style: italic;
+}
+
+/* L V H A */
