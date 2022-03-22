@@ -1,16 +1,32 @@
 * {
     color: black;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    border: 5px solid black;
     font-family: sans-serif;
 }
 
+article {
+    border: 5px solid black;
+}
+
+.container {
+    width: 825px;
+    margin: 50px auto; 
+}
+
 h2 {
+    font-size: 22px;
     text-align: center;
     background-color: lightgrey;
     text-transform: uppercase;
+    padding: 15px;
+}
+
+p {
+    margin-bottom: 15px;
 }
 
 a:hover {
@@ -21,26 +37,20 @@ a:active {
     background-color: orange;
 }
 
-button {
-    font-size: 30px;
-    font-weight: bold;
-    background-color: white;
-    border: none;
-}
-
-button:hover {
-    background-color: black;
-    color: white;
+.info {
+    margin-bottom: 30px;
 }
 
 .pricing {
     font-weight: bold;
     font-size: 30px;
+    margin-bottom: 0px;
 }
 
 .shipping {
     color: rgb(97, 96, 96);
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .main-part {
@@ -49,4 +59,25 @@ button:hover {
 
 .detail-list {
     list-style: square;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+button {
+    font-size: 30px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 5px;
+}
+
+button:hover {
+    border-top: 5px solid black;
+    background-color: white;
+    color: black;
 }
