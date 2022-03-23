@@ -7,6 +7,11 @@ body {
     border-top: 20px solid blue;
 }
 
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
 h1,
 h2,
 h3,
@@ -30,9 +35,49 @@ h1 {
     margin-bottom: 20px;
 }
 
+.main-header {
+    background-color: rgb(231, 231, 231);
+    padding: 20px;
+    margin-bottom: 60px;
+}
+
+.navbar {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+nav a:link {
+    display: inline-block;
+    margin: 30px;
+}
+
+.post-header {
+    margin-bottom: 20px;
+}
+
+.post-img {
+    width: 100%;
+    height: auto;
+}
+
 h2 {
     font-size: 40px;
     margin-bottom: 20px;
+    position: relative
+}
+
+h2::after{
+    content: "TOP";
+    color: black;
+    font-weight: bold;
+    background-color: yellow;
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 16px;
+    position: absolute;
+    top: -5px;
+    right: -25px;
+    
 }
 
 h3 {
@@ -52,6 +97,11 @@ p {
     margin-bottom: 15px;
 }
 
+#author {
+    font-style: italic;
+    font-size: 18px;
+}
+
 li {
     font-size: 20px;
 }
@@ -60,35 +110,12 @@ footer p {
     font-size: 16px;
 }
 
-#author {
-    font-style: italic;
-    font-size: 18px;
-}
-
 #copyright {
     font-size: 16px;
 }
 
-.related-author {
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.related {
-    list-style: none;
-}
-
-.main-header {
-    background-color: rgb(231, 231, 231);
-    padding: 40px;
-    margin-bottom: 60px;
-}
-.post-header {
-    margin-bottom: 20px;
-}
-
-ul, ol
-{
+ul,
+ol {
     margin-left: 50px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -109,6 +136,7 @@ li:first-child {
 
 
 /* L V H A */
+
 a:link {
     color: rgb(61, 109, 153);
     text-decoration: none;
@@ -129,16 +157,33 @@ a:active {
     font-style: italic;
 }
 
-.navbar {
-    text-transform: uppercase;
+.related-author {
+    font-size: 18px;
+    font-weight: bold;
 }
 
-.post-img {
-    width: 100%;
-    height: auto;
+.related {
+    list-style: none;
 }
 
-.container {
-    width: 70%;
-    margin : 0 auto;
+.like {
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
+
+h1::first-letter {
+    font-size: 40px;
+    font-style: normal;
+    margin-right: 20px;
+}
+
+.paragraphs p:first-child::first-letter
+{
+    font-size: 30px;
+    color: rgb(61, 109, 153);
+}
+
