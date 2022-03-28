@@ -10,8 +10,9 @@
     margin: 40px;
     display: flex;
 	background-color: grey;
-	align-items: center;
+	align-items: flex-start;
 	justify-content: space-between;
+    gap: 10px;
 }
 
 .el {
@@ -33,6 +34,7 @@
 
 .el--4 {
     background-color: orange;
+    order: 2;
 }
 
 .el--5 {
