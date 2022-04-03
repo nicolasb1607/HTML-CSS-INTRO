@@ -12,6 +12,9 @@ body {
 article {
     border: 5px solid black;
     position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
 }
 
 article::before {
@@ -38,6 +41,7 @@ h2 {
     background-color: lightgrey;
     text-transform: uppercase;
     padding: 15px;
+    grid-column: span 3;
 }
 
 a:hover {
@@ -97,7 +101,7 @@ button {
     color: white;
     width: 100%;
     padding: 5px;
-
+    grid-column: span 3;
 }
 
 button:hover {
@@ -137,11 +141,6 @@ button:hover {
 
 .color_options .color:nth-child(6) {
     background-color: maroon;
-}
-
-.contflex1 {
-    display: flex;
-    justify-content: space-between;
 }
 
 img {
