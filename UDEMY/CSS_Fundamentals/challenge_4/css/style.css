@@ -56,7 +56,6 @@ a:active {
 .pricing {
     font-weight: bold;
     font-size: 24px;
-    float: left;
     margin-bottom: 10px;
 }
 
@@ -64,7 +63,6 @@ a:active {
     color: rgb(97, 96, 96);
     font-weight: bold;
     font-size: 12px;
-    float: right;
     margin-bottom: 10px;
     padding: 5px;
 }
@@ -75,7 +73,7 @@ a:active {
 
 .main-part {
     text-transform: uppercase;
-    margin-bottom: px;
+    margin-bottom: 20px;
 }
 
 .detail-list {
@@ -141,14 +139,23 @@ button:hover {
     background-color: maroon;
 }
 
+.contflex1 {
+    display: flex;
+    justify-content: space-between;
+}
+
 img {
-    float: left;
     margin-right: 30px;
+}
+
+.flex-pricing {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
 }
 
 .product-selection {
     width: 243px;
-    float: left;
     margin-right: 40px;
     margin-top: 20px;
 }
@@ -156,6 +163,6 @@ img {
 .details-part {
     padding-top: 5px;
     width: 243px;
-    float: left;
     margin-top: 20px;
 }
+
